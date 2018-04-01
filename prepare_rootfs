@@ -1,0 +1,6 @@
+
+sudo mkdir /mnt/sdcard/
+sudo mount /dev/sd$11 /mnt/sdcard/
+sudo tar xf output/images/rootfs.tar -C /mnt/sdcard/
+sudo umount /dev/sd$11
+
